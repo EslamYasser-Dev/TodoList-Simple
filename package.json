@@ -1,5 +1,4 @@
 {
-  "homepage": "https://EslamYasser-Dev.github.io/TodoList-Simple",
   "name": "todo-app",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +12,8 @@
     "react-datetime": "^3.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^2.1.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://EslamYasser-Dev.github.io/TodoList-Simple"
   },
   "scripts": {
     "predeploy": "npm run build",

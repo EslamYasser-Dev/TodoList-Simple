@@ -1,5 +1,6 @@
 import './App.css';
 import Jobs from './components/Jobs';
+import React from 'react';
 
 function App() {
   return (
