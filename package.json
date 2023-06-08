@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://EslamYasser-Dev.github.io/TodoList-Simple"
+  "homepage": "https://EslamYasser-Dev.github.io/TodoListXLinuxTry2"
 }
