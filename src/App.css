@@ -9,7 +9,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100%;
+  width: 100vw;
+  min-height: 100vh;
 
 }
 h1{
@@ -18,7 +19,7 @@ h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 66;
   font-weight: 500;
-  padding: 3vh;
+  padding: 3vw;
   border-radius: 1vh 1vh 50%;
 }
 h2{
