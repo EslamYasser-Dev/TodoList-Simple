@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+
+    width: 120vh;
+    height:fit-content;
+    transition: 1s;
+
+    align-items: center;   
+}
+
+.card{
+    box-sizing: border-box;
+    width:100vh;
+    height:31vh;
+    padding: 1.3vh;
+    margin: 3vh;
+    background-color: #ffffffc0;
+    backdrop-filter: blur(6px);
+    transition: 1s;
+    border-radius: 2vh;
+    align-self: center;
+    box-shadow: 1px 1px 20px #ffffffad;
+}
+
+.card:hover{
+    background-color: #ffffff34;
+    transform: scale(1.01);
+    transition: 1s;
+
+
+}
+
+.card input{
+    text-align: center;
+    font-size: 1.1em;
+    color: #000000b2;
+    width: 95%;
+    height: 70%;
+    padding: 2vh;
+    background-color: #ffffff00;
+    border: none;
+}
+
+.card a{
+    border: none;
+    margin: 2vh;
+    text-decoration: none;
+    font-weight: 600;
+    float: inline-end;
+    float: right;
+    cursor: pointer;
+    color: rgba(75, 78, 248, 0.5);
+    transition: 1.2s;
+    padding: 1vh;
+}
+
+.card a:hover{
+    color: azure;
+    transition: 1s;
+}
+
+.card span{
+    float: left;
+    margin: 1vh;
+}
+
+.controls{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-shadow: 3px 3px 10px #fff;
+}
+
+/*
+By Eslam Yasser
+7 - jun - 2023
+*/
